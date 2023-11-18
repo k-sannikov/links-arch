@@ -4,147 +4,124 @@
 @startuml
 
 :User: as User
-:Application: as Application
 
+	rectangle Работа_с_аккаунтом{
+		(Создание аккаунт) as Registr_acc
+		(Вход в аккаунт) as Enter_in_app 
+		(Проверка уникальности логина) as Login_done
+		(Сообщение о создании аккаунта) as Login_massage
+		(Сообщение о существовании данного логина) as Login_error_massage
+		(Обновление всех узлов данного аккаунта) as Reload_data
 
+		(Редактирование профиля) as Edit_profil 
+		(Изменение пароля) as Edit_password 
+		(Изменение логина) as Edit_login
+		(Проверка валидности пароля) as Check_password
 
-rectangle  {
+		 (Выбор языка интерфейса) as Language
 
-	(Создание директории) as Create 
-	(Обновление иерархического списка директории) as Update
-	(Удаление директории) as Delete
-	(Удаление содержимого директории) as Delete_include
+	}
+
+	rectangle Работа_с_узлами{
+		(Создание ресурса) as Create_resurs 
+		(Удаление ресурса) as Delete_resurs
+		(Редактирование ресурса) as Redact_resurs
+		(Переименовать ресурса) as Rename_resurs
+		(Изменить содержание ресурса) as Refile_resurs
+		(Переместить ресурса в другую директорию) as Relocate_resurs
+		(Обновление иереархического списка директории) as Reload_ier
+		(Сохранение изменений ресурса) as Save_resurs
+		(Создание копии ресурса) as Copy_resurs
 		
-	(Добавление ресурса в директории) as Add_folder
-	(Изменение ресурса) as Change_file
-	(Сохранение изменений ресурса) as Save_change_file
-	(Сохранение ресурса) as Save_file
-	
-	(Перенос ресурса из одной директории в другую) as Move_file_folder
-	
-	(Создание ресурса) as Create_note
-	
-	(Удаление ресурса) as Delete_note
-	
-	(Создание копии ресурса) as Double_note
-	
-	(Открытие приложения) as Open_app
-	(Обновление списка открытых вкладок) as Update_tab
-	(Просмотр списка открытых вкладок) as View_tab
-	(Открытие новой вкладки в браузере) as Open_tab
-	(Закрытие вкладки) as Close_tab
-
-	(Выбор узла для передачи доступа другому пользователю) as Choice_aria
-	(Дать доступ к узлу) as Give_aria
-	(Добавление узла в списке узлов другого пользователя) as   Add_work_aria
-
-	(Забрать доступ к узлу) as Take_aria
-	(Удаление доступа к узлу из списка узлов другого пользователя) as Delete_aria
-
-	(Выбор языка интерфейса) as Language
-
-	(Вход в аккаунт) as Come_in
-	(Обновление всех узлов данного аккаунта) as Update_accaunt
-
-	(Изменение пароля) as Change_pass
-	(Проверка валидного пароля) as Valid_pass
-
-	(Изменение логина) as Change_login
-	(Проверка уникальности логина) as Correct_login
-
-	(Создание аккаунта) as Create_accaunt
-	(Сообщение о создании аккаунта) as Alert_accaunt
-	(Просмотр личных и доступных узлов) as View
+		(Создание директории) as Create 
+		(Удаление директории) as Delete
+		(Редактирование директории) as Redact_dir
+		(Переименовать директорию) as Rename_dir
+		(Переместить директорию в другую директорию) as Relocate_dir
+		(Удаление содержимого директории) as Delete_include
+	}
 
 
-	Update <.up. Create : <<include>>
-	Update <.up. Delete : <<include>>
-	Delete_include <.up. Delete : <<include>>
-	Save_file <.up. Save_change_file : <<include>>
-	Update_tab <.up. Open_app : <<include>>
-	Update_tab <.up. Open_tab : <<include>>
-	Update_tab <.up. Close_tab : <<include>>
-	Add_work_aria <.up. Give_aria : <<include>>
-	Delete_aria <.up. Take_aria : <<include>>
-	Update_accaunt <.up. Come_in : <<include>>
-	Valid_pass <.up. Change_pass : <<include>>
-	Valid_pass <.up. Create_accaunt : <<include>>
-	Correct_login <.up. Change_login : <<include>>
-	Update <.up. Change_file : <<include>>
-	Update <.up. Double_note : <<include>>
-	Update <.up. Delete_note : <<include>>
-	Update <.up. Create_note : <<include>>
-	Update <.up. Add_folder : <<include>>
-	Update <.up. Move_file_folder : <<include>>
-	Correct_login <.up. Create_accaunt : <<include>>
-}
+	rectangle Работа_с_вкладками{
+		(Открытие новой вкладки в браузер) as Open_link 
+		(Открытие приложения) as Open_app
+		(Закрытие вкладки в браузере) as Close_link
+		(Просмотр списка открытых вкладок) as Show_link
+		(Обновление списка открытых вкладок) as Refresh_link
+	}
+
+	rectangle Работа_с_доступом{
+		(Дать доступ к узлу) as Give_dostup 
+		(Выбор узла для передачи/отмены доступа другому пользователю) as Choice_dostup
+		(Забрать доступ к узлу) as Take_dostup
+		(Просмотр личных и доступных узлов) as Show_dostup
+		(Удаление доступа к узлу из списка узлов другого пользователя) as Delete_dostup
+		(Добавление узла в список узлов другого пользователя) as Add_file
+	}
+
+	 Choice_dostup <.. Give_dostup : extend
+	 Choice_dostup <.. Take_dostup : extend
+	 Give_dostup ..> Add_file : include
+	 Take_dostup ..> Delete_dostup : include
+
+	 Open_link ..> Refresh_link : include
+	 Open_app ..> Refresh_link : include
+	 Close_link ..> Refresh_link : include
+
+	 Enter_in_app ..> Reload_data : include
+	 Registr_acc ..> Login_done : include
+	 Login_done <.. Login_massage : extend
+	 Login_done <.. Login_error_massage : extend
+
+	 Edit_profil <.. Edit_password : extend
+	 Edit_profil <.. Edit_login : extend
+	 Edit_password ..> Check_password : include
+	 Edit_login ..> Login_done : include
+
+	 Delete ..> Delete_include : include
+	 Redact_dir <.. Rename_dir : extend
+	 Redact_dir <.. Relocate_dir : extend
+	 Delete ..> Reload_ier : include
+	 Relocate_dir ..> Reload_ier : include
+	 Create ..> Reload_ier : include
+	 Rename_dir ..> Reload_ier : include
+
+	 Redact_resurs <.. Rename_resurs : extend
+	 Redact_resurs <.. Refile_resurs : extend
+	 Redact_resurs <.. Relocate_resurs : extend
+	 
+	 Rename_resurs ..> Reload_ier : include
+	 Refile_resurs ..> Reload_ier : include
+	 Relocate_resurs ..> Reload_ier : include
+	 Create_resurs ..> Reload_ier : include
+	 Delete_resurs ..> Reload_ier : include
+
+	 Refile_resurs ..> Save_resurs : include
 
 left to right direction
-User -Down-> Create
-User -Down-> Delete
-User -Down-> View
-User -Down-> Add_folder
-User -Down-> Change_file
-User -Down-> Save_change_file
-User -Down-> Move_file_folder
-User -Down-> Create_note
-User -Down-> Delete_note
-User -Down-> Double_note
 
-User -Down-> Open_app
-User -Down-> View_tab
-User -Down-> Open_tab
-User -Down-> Close_tab
+User -d-> Create
+User -d-> Delete
+User -d-> Redact_dir
+User -d-> Language
 
-User -Down-> Choice_aria
-User -Down-> Give_aria
-User -Down-> Take_aria
+User -d-> Enter_in_app
+User -d-> Registr_acc
+User -d-> Edit_profil
 
-User -Down-> Language
+User -d-> Create_resurs
+User -d-> Delete_resurs
+User -d-> Redact_resurs
 
-User -Down-> Come_in
+User -d-> Copy_resurs
 
-User -Down-> Change_pass
+User -d-> Open_link
+User -d-> Open_app
+User -d-> Close_link
+User -d-> Show_link
 
-User -Down-> Change_login
-User -Down-> Alert_accaunt
-User -Down-> Create_accaunt
-
-
-Application -up-> Create
-Application -up-> View
-Application -up-> Update
-Application -up-> Delete
-Application -up-> Delete_include
-Application -up-> Add_folder
-Application -up-> Change_file
-Application -up-> Save_file
-Application -up-> Move_file_folder
-Application -up-> Create_note
-Application -up-> Delete_note
-Application -up-> Double_note
-Application -up-> Open_app
-Application -up-> Update_tab
-Application -up-> View_tab
-Application -up-> Open_tab
-Application -up-> Close_tab
-Application -up-> Choice_aria
-Application -up-> Give_aria
-
-Application -up-> Add_work_aria
-Application -up-> Take_aria
-Application -up-> Delete_aria
-Application -up-> Language
-
-Application -up-> Change_login
-Application -up-> Correct_login
-Application -up-> Create_accaunt
-Application -up-> Alert_accaunt
-
-Application -up-> Come_in
-Application -up-> Update_accaunt
-Application -up-> Change_pass
-Application -up-> Valid_pass
+User -d-> Choice_dostup
+User -d-> Show_dostup
 
 @enduml
 ```
