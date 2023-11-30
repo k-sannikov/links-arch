@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="695px" preserveAspectRatio="none" style="width:2836px;height:695px;background:#FFFFFF;" version="1.1" viewBox="0 0 2836 695" width="2836px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="256" x="1283.25" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="246" x="1288.25" y="22.9951">UML State diagram Project LUFI</text><ellipse cx="1756" cy="53.2969" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="Вход"><rect fill="#F1F1F1" height="85.1875" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="293" x="1609.5" y="123.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1609.5" x2="1902.5" y1="149.5938" y2="149.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="1738" y="141.292">Вход</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="273" x="1614.5" y="167.5889">entry / Регистрация или авторизация</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="1614.5" y="183.8857">do / Ввести данные</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="1614.5" y="200.1826">exit / Отправить данные</text></g><g id="Действия_пользователя"><rect fill="#F1F1F1" height="150.375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="401" x="1555.5" y="268.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1555.5" x2="1956.5" y1="294.5938" y2="294.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="1665" y="286.292">Действия_пользователя</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="303" x="1560.5" y="312.5889">entry / Отображение основной страницы</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="229" x="1560.5" y="328.8857">do / Добавить новый эллемент</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="281" x="1560.5" y="345.1826">do / Переход на действия с аккаунтом</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="293" x="1560.5" y="361.4795">do / Переход на настройки интерфейса</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="381" x="1560.5" y="377.7764">do / Взаимодействие с существующими объектами</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="348" x="1560.5" y="394.0732">do / Взаимодействие с доступными объектами</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="250" x="1560.5" y="410.3701">do / Взаимодействие с вкладками</text></g><g id="Добавить_новый_эллемент"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="224" x="325" y="478.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="325" x2="549" y1="504.5938" y2="504.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204" x="335" y="496.292">Добавить_новый_эллемент</text></g><g id="Создать_заметку"><rect fill="#F1F1F1" height="85.1875" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="176" x="7" y="596.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="183" y1="622.5938" y2="622.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="31" y="614.292">Создать_заметку</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="12" y="640.5889">do / Ввести название</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="12" y="656.8857">do / Ввести текст</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="12" y="673.1826">do / Сохранить</text></g><g id="Создать_ссылку"><rect fill="#F1F1F1" height="101.4844" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="218" y="588.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="218" x2="396" y1="614.5938" y2="614.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="247" y="606.292">Создать_ссылку</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="223" y="632.5889">do / Ввести название</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="223" y="648.8857">do / Ввести URL</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="223" y="665.1826">do / Ввести описание</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="223" y="681.4795">do / Сохранить</text></g><g id="Создать_директорию"><rect fill="#F1F1F1" height="68.8906" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="270" x="431" y="604.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="431" x2="701" y1="630.5938" y2="630.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="485" y="622.292">Создать_директорию</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="250" x="436" y="648.5889">do / Ввести название директории</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="436" y="664.8857">do / Сохранить директорию</text></g><g id="Действия_с_аккаунтом"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="190" x="1063" y="478.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1063" x2="1253" y1="504.5938" y2="504.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="1073" y="496.292">Действия_с_аккаунтом</text></g><g id="Выйти_из_аккаунта"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="164" x="736" y="612.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="736" x2="900" y1="638.5938" y2="638.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="746" y="630.292">Выйти_из_аккаунта</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="741" y="656.5889">do / Выйти</text></g><g id="Сменить_логин"><rect fill="#F1F1F1" height="68.8906" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="201" x="935.5" y="604.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="935.5" x2="1136.5" y1="630.5938" y2="630.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="979" y="622.292">Сменить_логин</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="940.5" y="648.5889">do / Ввести новый логин</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="940.5" y="664.8857">do / Сохранить</text></g><g id="Сменить_праоль"><rect fill="#F1F1F1" height="101.4844" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="218" x="1172" y="588.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1172" x2="1390" y1="614.5938" y2="614.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="1219.5" y="606.292">Сменить_праоль</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="1177" y="632.5889">do / Ввести старый пароль</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="1177" y="648.8857">do / Ввести новый пароль</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="1177" y="665.1826">do / Повторить пароль</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1177" y="681.4795">do / Сохранить</text></g><g id="Настройки_интерфейса"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="198" x="1469" y="478.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1469" x2="1667" y1="504.5938" y2="504.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="1479" y="496.292">Настройки_интерфейса</text></g><g id="Russian"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="75" x="1530.5" y="613.7969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1530.5" x2="1605.5" y1="640.0938" y2="640.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="1540.5" y="631.792">Russian</text></g><g id="Engilsh"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="70" x="1425" y="613.7969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1425" x2="1495" y1="640.0938" y2="640.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1435" y="631.792">Engilsh</text></g><g id="Взаимодействие_с_узлами"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="218" x="1874" y="478.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1874" x2="2092" y1="504.5938" y2="504.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="1884" y="496.292">Взаимодействие_с_узлами</text></g><g id="Копирование_узла"><rect fill="#F1F1F1" height="68.8906" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="176" x="1641" y="604.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1641" x2="1817" y1="630.5938" y2="630.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="1660.5" y="622.292">Копирование_узла</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="1646" y="648.5889">do / Выбрать узел</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="1646" y="664.8857">do / Копировать узел</text></g><g id="Перемещение_узла"><rect fill="#F1F1F1" height="68.8906" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="187" x="1851.5" y="604.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1851.5" x2="2038.5" y1="630.5938" y2="630.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="1872.5" y="622.292">Перемещение_узла</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="1856.5" y="648.5889">do / Выбрать узел</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="1856.5" y="664.8857">do / Переместить узел</text></g><g id="Редактировать"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="280" x="2535" y="612.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="2535" x2="2815" y1="638.5938" y2="638.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="2618.5" y="630.292">Редактировать</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="260" x="2540" y="656.5889">do / Ввести новые данные объекта</text></g><g id="Удалить"><rect fill="#F1F1F1" height="68.8906" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="170" x="2330" y="604.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="2330" x2="2500" y1="630.5938" y2="630.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="2384.5" y="622.292">Удалить</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="2335" y="648.5889">do / Удалить объект</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="2335" y="664.8857">do / Удалить объект</text></g><g id="Дать_доступ"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="221" x="2073.5" y="612.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="2073.5" x2="2294.5" y1="638.5938" y2="638.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="2136" y="630.292">Дать_доступ</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="2078.5" y="656.5889">do / Дать доступ к объекту</text></g><g id="Взаимодействие_с_доступными_объектами"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="346" x="2203" y="478.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="2203" x2="2549" y1="504.5938" y2="504.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="326" x="2213" y="496.292">Взаимодействие_с_доступными_объектами</text></g><g id="Взаимодействие_с_вкладками"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="245" x="2584.5" y="478.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="2584.5" x2="2829.5" y1="504.5938" y2="504.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="225" x="2594.5" y="496.292">Взаимодействие_с_вкладками</text></g><!--MD5=[38e9447d83d7f1bf6ac3441a298e7c05]
+link *start to Вход--><g id="link_*start_Вход"><path d="M1756,63.3369 C1756,75.3569 1756,97.4869 1756,118.0069 " fill="none" id="*start-to-Вход" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1756,123.1869,1760,114.1869,1756,118.1869,1752,114.1869,1756,123.1869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[443cc273d318f7cd3d062de2ceea7a27]
+link Вход to Действия_пользователя--><g id="link_Вход_Действия_пользователя"><path d="M1756,208.3869 C1756,224.6969 1756,243.9769 1756,262.7469 " fill="none" id="Вход-to-Действия_пользователя" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1756,268.0269,1760,259.0269,1756,263.0269,1752,259.0269,1756,268.0269" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[653eec70807f1119610de5ed814a9ab2]
+link Действия_пользователя to Добавить_новый_эллемент--><g id="link_Действия_пользователя_Добавить_новый_эллемент"><path d="M1555.31,368.3369 C1276.35,401.7569 780.29,461.1769 554.62,488.2069 " fill="none" id="Действия_пользователя-to-Добавить_новый_эллемент" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="549.34,488.8369,558.7544,491.7297,554.304,488.2378,557.7959,483.7873,549.34,488.8369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[94620edab02c00904744c1230e2f9353]
+link Добавить_новый_эллемент to Создать_заметку--><g id="link_Добавить_новый_эллемент_Создать_заметку"><path d="M363.15,528.3469 C316.02,544.2169 253.89,566.1069 200,588.2969 C195.46,590.1669 190.83,592.1269 186.17,594.1469 " fill="none" id="Добавить_новый_эллемент-to-Создать_заметку" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="181.5,596.1869,191.3488,596.2183,186.0755,594.1708,188.1231,588.8975,181.5,596.1869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[133f923175ef8126a6bd766ef0e8f744]
+link Добавить_новый_эллемент to Создать_ссылку--><g id="link_Добавить_новый_эллемент_Создать_ссылку"><path d="M413.46,528.4769 C398.3,544.0369 377.98,564.9069 359.15,584.2469 " fill="none" id="Добавить_новый_эллемент-to-Создать_ссылку" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="355.41,588.0869,364.5515,584.4217,358.8952,584.5017,358.8152,578.8454,355.41,588.0869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dc3f2acbc40ad285573f35755d00b7a4]
+link Добавить_новый_эллемент to Создать_директорию--><g id="link_Добавить_новый_эллемент_Создать_директорию"><path d="M460.36,528.4769 C479.8,548.5869 507.78,577.5469 530.07,600.6169 " fill="none" id="Добавить_новый_эллемент-to-Создать_директорию" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="533.59,604.2569,530.2222,595.0017,530.1193,600.6577,524.4634,600.5548,533.59,604.2569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9731c948d03e3ca22d89c7398a1e18eb]
+link Действия_пользователя to Действия_с_аккаунтом--><g id="link_Действия_пользователя_Действия_с_аккаунтом"><path d="M1555.21,397.3469 C1453.78,424.1469 1335.39,455.4269 1254.41,476.8269 " fill="none" id="Действия_пользователя-to-Действия_с_аккаунтом" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1249.13,478.2169,1258.8551,479.7736,1253.9626,476.9339,1256.8023,472.0414,1249.13,478.2169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c70cfcfd5ae9f68da4579af8fa9c199f]
+link Действия_с_аккаунтом to Выйти_из_аккаунта--><g id="link_Действия_с_аккаунтом_Выйти_из_аккаунта"><path d="M1081.7,528.3369 C1034.08,543.9969 971.82,565.6569 918,588.2969 C902.55,594.7969 886.11,602.5569 871.13,609.9869 " fill="none" id="Действия_с_аккаунтом-to-Выйти_из_аккаунта" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="866.52,612.2769,876.3593,611.8422,870.995,610.0465,872.7907,604.6823,866.52,612.2769" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8f76d991fedd8dff704b8fa0a844848f]
+link Действия_с_аккаунтом to Сменить_логин--><g id="link_Действия_с_аккаунтом_Сменить_логин"><path d="M1135.91,528.4769 C1117.6,548.5069 1091.27,577.3069 1070.24,600.3269 " fill="none" id="Действия_с_аккаунтом-to-Сменить_логин" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1066.65,604.2569,1075.676,600.3159,1070.0247,600.5675,1069.7731,594.9163,1066.65,604.2569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f9ab916f153d20bbc2a1b91ce17d8078]
+link Действия_с_аккаунтом to Сменить_праоль--><g id="link_Действия_с_аккаунтом_Сменить_праоль"><path d="M1180.27,528.4769 C1194.62,544.0369 1213.85,564.9069 1231.66,584.2469 " fill="none" id="Действия_с_аккаунтом-to-Сменить_праоль" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1235.2,588.0869,1232.0392,578.759,1231.8104,584.4112,1226.1582,584.1824,1235.2,588.0869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6b12db4b353e685bb3bde61b43b9d193]
+link Действия_пользователя to Настройки_интерфейса--><g id="link_Действия_пользователя_Настройки_интерфейса"><path d="M1667.78,418.4369 C1644.01,438.4169 1619.75,458.8069 1601.1,474.4769 " fill="none" id="Действия_пользователя-to-Настройки_интерфейса" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1596.96,477.9569,1606.4248,475.2335,1600.7894,474.7419,1601.2809,469.1065,1596.96,477.9569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1807d297c3f96388f35acfbb04dafec7]
+link Настройки_интерфейса to Russian--><g id="link_Настройки_интерфейса_Russian"><path d="M1568,528.4769 C1568,550.8269 1568,584.1169 1568,608.0769 " fill="none" id="Настройки_интерфейса-to-Russian" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1568,613.3469,1572,604.3469,1568,608.3469,1564,604.3469,1568,613.3469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[73f41148b5cd7e2c3221c2fc2c99a035]
+link Настройки_интерфейса to Engilsh--><g id="link_Настройки_интерфейса_Engilsh"><path d="M1548.44,528.4769 C1530.05,551.2069 1502.52,585.2369 1483.07,609.2769 " fill="none" id="Настройки_интерфейса-to-Engilsh" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1479.78,613.3469,1488.5598,608.8842,1482.933,609.4663,1482.3509,603.8395,1479.78,613.3469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7b89a7e8b30942a1aa33b98e719ade00]
+link Действия_пользователя to Взаимодействие_с_узлами--><g id="link_Действия_пользователя_Взаимодействие_с_узлами"><path d="M1862.52,418.4369 C1891.69,438.7469 1921.48,459.4769 1944.14,475.2469 " fill="none" id="Действия_пользователя-to-Взаимодействие_с_узлами" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1948.28,478.1369,1943.1693,469.7178,1944.1732,475.2849,1938.6061,476.2888,1948.28,478.1369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[70e02b8084db9aef047c837913431195]
+link Взаимодействие_с_узлами to Копирование_узла--><g id="link_Взаимодействие_с_узлами_Копирование_узла"><path d="M1937.3,528.3169 C1898.36,548.7869 1841.82,578.4969 1797.48,601.8069 " fill="none" id="Взаимодействие_с_узлами-to-Копирование_узла" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1792.95,604.1869,1802.7775,603.5388,1797.3755,601.8599,1799.0544,596.4579,1792.95,604.1869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[31d82db6bc3a2a08eb31da11b5376c72]
+link Взаимодействие_с_узлами to Перемещение_узла--><g id="link_Взаимодействие_с_узлами_Перемещение_узла"><path d="M1976.12,528.4769 C1970.51,548.1769 1962.49,576.3569 1955.99,599.1769 " fill="none" id="Взаимодействие_с_узлами-to-Перемещение_узла" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1954.55,604.2569,1960.8419,596.6798,1955.9066,599.4444,1953.142,594.5092,1954.55,604.2569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f8c05e251fcb23fa18780191f6d98000]
+link Взаимодействие_с_узлами to Редактировать--><g id="link_Взаимодействие_с_узлами_Редактировать"><path d="M2092.03,516.5569 C2200.79,529.9269 2372.24,554.0769 2518,588.2969 C2543.95,594.3869 2571.84,602.6169 2596.8,610.6069 " fill="none" id="Взаимодействие_с_узлами-to-Редактировать" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2601.75,612.2069,2594.4051,605.6454,2596.9897,610.6773,2591.9578,613.2619,2601.75,612.2069" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1bce58bcc4e7dd84a61308fa1d31d3df]
+link Взаимодействие_с_узлами to Удалить--><g id="link_Взаимодействие_с_узлами_Удалить"><path d="M2092.06,526.4369 C2156.91,541.0069 2240.26,562.1969 2312,588.2969 C2323.01,592.3069 2334.42,597.0969 2345.47,602.0969 " fill="none" id="Взаимодействие_с_узлами-to-Удалить" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2350.18,604.2569,2343.6698,596.8665,2345.636,602.1706,2340.3319,604.1368,2350.18,604.2569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8ad9324904b51a055deddb7b64c764dd]
+link Взаимодействие_с_узлами to Дать_доступ--><g id="link_Взаимодействие_с_узлами_Дать_доступ"><path d="M2019.4,528.4769 C2053.64,551.2169 2104.93,585.2769 2141.14,609.3269 " fill="none" id="Взаимодействие_с_узлами-to-Дать_доступ" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2145.47,612.2069,2140.2003,603.8864,2141.3097,609.4334,2135.7627,610.5428,2145.47,612.2069" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[607a1802ad3ffa5892bd6ece92429315]
+link Действия_пользователя to Взаимодействие_с_доступными_объектами--><g id="link_Действия_пользователя_Взаимодействие_с_доступными_объектами"><path d="M1956.87,395.4869 C2063.85,422.7469 2190.71,455.0769 2276.62,476.9669 " fill="none" id="Действия_пользователя-to-Взаимодействие_с_доступными_объектами" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2281.71,478.2669,2273.9699,472.1766,2276.8635,477.0374,2272.0027,479.931,2281.71,478.2669" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c0e5f52dbdae526264125f7169211a81]
+link Взаимодействие_с_доступными_объектами to Редактировать--><g id="link_Взаимодействие_с_доступными_объектами_Редактировать"><path d="M2429.8,528.3169 C2481.29,551.3069 2558.91,585.9669 2612.98,610.1069 " fill="none" id="Взаимодействие_с_доступными_объектами-to-Редактировать" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2617.81,612.2669,2611.2251,604.943,2613.2451,610.2269,2607.9612,612.2469,2617.81,612.2669" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d88e11ea270ce7820b651fd7996cff06]
+link Взаимодействие_с_доступными_объектами to Удалить--><g id="link_Взаимодействие_с_доступными_объектами_Удалить"><path d="M2383.06,528.4769 C2388.82,548.1769 2397.05,576.3569 2403.72,599.1769 " fill="none" id="Взаимодействие_с_доступными_объектами-to-Удалить" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2405.2,604.2569,2406.4932,594.4933,2403.7869,599.4607,2398.8194,596.7543,2405.2,604.2569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0f55268a5727bc91ee85a4276194b4b7]
+link Действия_пользователя to Взаимодействие_с_вкладками--><g id="link_Действия_пользователя_Взаимодействие_с_вкладками"><path d="M1956.86,377.1369 C2121.01,404.0669 2359.07,443.2969 2567,478.2969 C2571.11,478.9869 2575.28,479.6969 2579.5,480.4069 " fill="none" id="Действия_пользователя-to-Взаимодействие_с_вкладками" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2584.46,481.2469,2576.2631,475.787,2579.5315,480.404,2574.9145,483.6725,2584.46,481.2469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1f3dc76857f7d04c35a72c2a64248951]
+@startuml
+'https://plantuml.com/state-diagram
+title UML State diagram Project LUFI
+
+[*] - -> Вход
+    Вход : entry / Регистрация или авторизация
+    Вход : do / Ввести данные
+    Вход : exit / Отправить данные
+
+Вход - -> Действия_пользователя
+    Действия_пользователя : entry / Отображение основной страницы
+    Действия_пользователя : do / Добавить новый эллемент
+    Действия_пользователя : do / Переход на действия с аккаунтом
+    Действия_пользователя : do / Переход на настройки интерфейса
+
+    Действия_пользователя : do / Взаимодействие с существующими объектами
+    Действия_пользователя : do / Взаимодействие с доступными объектами
+    Действия_пользователя : do / Взаимодействие с вкладками
+
+Действия_пользователя - -> Добавить_новый_эллемент
+    Добавить_новый_эллемент - -> Создать_заметку
+    Создать_заметку: do / Ввести название
+    Создать_заметку: do / Ввести текст
+    Создать_заметку: do / Сохранить
+
+Добавить_новый_эллемент - -> Создать_ссылку
+    Создать_ссылку: do / Ввести название
+    Создать_ссылку: do / Ввести URL
+    Создать_ссылку: do / Ввести описание
+    Создать_ссылку: do / Сохранить
+
+Добавить_новый_эллемент - -> Создать_директорию
+    Создать_директорию : do / Ввести название директории
+    Создать_директорию : do / Сохранить директорию
+
+
+
+Действия_пользователя - -> Действия_с_аккаунтом
+Действия_с_аккаунтом - -> Выйти_из_аккаунта
+    Выйти_из_аккаунта : do / Выйти 
+    
+
+
+
+Действия_с_аккаунтом - -> Сменить_логин
+    Сменить_логин : do / Ввести новый логин
+    Сменить_логин : do / Сохранить
+
+
+Действия_с_аккаунтом - -> Сменить_праоль
+    Сменить_праоль : do / Ввести старый пароль
+    Сменить_праоль : do / Ввести новый пароль
+    Сменить_праоль : do / Повторить пароль
+    Сменить_праоль : do / Сохранить
+
+
+Действия_пользователя - -> Настройки_интерфейса
+Настройки_интерфейса - -> Russian
+Настройки_интерфейса - -> Engilsh
+
+
+Действия_пользователя- -> Взаимодействие_с_узлами
+
+Взаимодействие_с_узлами - -> Копирование_узла
+    Копирование_узла: do / Выбрать узел
+    Копирование_узла: do / Копировать узел
+
+Взаимодействие_с_узлами - -> Перемещение_узла
+    Перемещение_узла: do / Выбрать узел
+    Перемещение_узла: do / Переместить узел
+
+Взаимодействие_с_узлами - -> Редактировать
+    Редактировать: do / Ввести новые данные объекта
+
+Взаимодействие_с_узлами - -> Удалить
+    Удалить: do / Удалить объект
+
+Взаимодействие_с_узлами - -> Дать_доступ
+    Дать_доступ: do / Дать доступ к объекту
+
+Действия_пользователя - -> Взаимодействие_с_доступными_объектами
+    Взаимодействие_с_доступными_объектами - -> Редактировать
+
+
+Взаимодействие_с_доступными_объектами - -> Удалить
+    Удалить: do / Удалить объект
+
+Действия_пользователя - -> Взаимодействие_с_вкладками
+@enduml
+
+@startuml
+title UML State diagram Project LUFI
+
+[*] - -> Вход
+    Вход : entry / Регистрация или авторизация
+    Вход : do / Ввести данные
+    Вход : exit / Отправить данные
+
+Вход - -> Действия_пользователя
+    Действия_пользователя : entry / Отображение основной страницы
+    Действия_пользователя : do / Добавить новый эллемент
+    Действия_пользователя : do / Переход на действия с аккаунтом
+    Действия_пользователя : do / Переход на настройки интерфейса
+
+    Действия_пользователя : do / Взаимодействие с существующими объектами
+    Действия_пользователя : do / Взаимодействие с доступными объектами
+    Действия_пользователя : do / Взаимодействие с вкладками
+
+Действия_пользователя - -> Добавить_новый_эллемент
+    Добавить_новый_эллемент - -> Создать_заметку
+    Создать_заметку: do / Ввести название
+    Создать_заметку: do / Ввести текст
+    Создать_заметку: do / Сохранить
+
+Добавить_новый_эллемент - -> Создать_ссылку
+    Создать_ссылку: do / Ввести название
+    Создать_ссылку: do / Ввести URL
+    Создать_ссылку: do / Ввести описание
+    Создать_ссылку: do / Сохранить
+
+Добавить_новый_эллемент - -> Создать_директорию
+    Создать_директорию : do / Ввести название директории
+    Создать_директорию : do / Сохранить директорию
+
+
+
+Действия_пользователя - -> Действия_с_аккаунтом
+Действия_с_аккаунтом - -> Выйти_из_аккаунта
+    Выйти_из_аккаунта : do / Выйти 
+    
+
+
+
+Действия_с_аккаунтом - -> Сменить_логин
+    Сменить_логин : do / Ввести новый логин
+    Сменить_логин : do / Сохранить
+
+
+Действия_с_аккаунтом - -> Сменить_праоль
+    Сменить_праоль : do / Ввести старый пароль
+    Сменить_праоль : do / Ввести новый пароль
+    Сменить_праоль : do / Повторить пароль
+    Сменить_праоль : do / Сохранить
+
+
+Действия_пользователя - -> Настройки_интерфейса
+Настройки_интерфейса - -> Russian
+Настройки_интерфейса - -> Engilsh
+
+
+Действия_пользователя- -> Взаимодействие_с_узлами
+
+Взаимодействие_с_узлами - -> Копирование_узла
+    Копирование_узла: do / Выбрать узел
+    Копирование_узла: do / Копировать узел
+
+Взаимодействие_с_узлами - -> Перемещение_узла
+    Перемещение_узла: do / Выбрать узел
+    Перемещение_узла: do / Переместить узел
+
+Взаимодействие_с_узлами - -> Редактировать
+    Редактировать: do / Ввести новые данные объекта
+
+Взаимодействие_с_узлами - -> Удалить
+    Удалить: do / Удалить объект
+
+Взаимодействие_с_узлами - -> Дать_доступ
+    Дать_доступ: do / Дать доступ к объекту
+
+Действия_пользователя - -> Взаимодействие_с_доступными_объектами
+    Взаимодействие_с_доступными_объектами - -> Редактировать
+
+
+Взаимодействие_с_доступными_объектами - -> Удалить
+    Удалить: do / Удалить объект
+
+Действия_пользователя - -> Взаимодействие_с_вкладками
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
